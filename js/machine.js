@@ -21,12 +21,14 @@ function showAll(id){
     const sendmoney = document.getElementById('transfer-money')
     const payment = document.getElementById('pay-bill')
     const bonus = document.getElementById('bonus')
+    const transection = document.getElementById('history')
 
     addmoney.classList.add('hidden');
     cashout.classList.add('hidden');
     sendmoney.classList.add('hidden');
     payment.classList.add('hidden');
     bonus.classList.add('hidden');
+    transection.classList.add('hidden')
     const selected = document.getElementById(id);
     selected.classList.remove('hidden')
     

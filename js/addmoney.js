@@ -14,13 +14,13 @@ document.getElementById('addmoney-btn').addEventListener('click', function(){
     const newAmount = accBalane + Number(AmountB)
     
     if(newAmount < 0){
-        alert('incefficient balane');
+        alert('insufficient balance');
         return;
     }
 
     const accPin = getInputValue('addmoney-pin');
     if(accPin == '5263'){
-        alert('addmoney succecfully');
+        alert('payment successfully');
         setBalance(newAmount);
     }else{
         alert('invalid pin')

@@ -16,7 +16,7 @@ document.getElementById('withdraw-btn').addEventListener('click', function () {
     const inputPin = document.getElementById('cashout-pin');
     const pin = inputPin.value;
     if(pin == '5263'){
-        alert('cashout succesful');
+        alert('cashout successful');
         setBalance(newAmount)
 
     }else{

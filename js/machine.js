@@ -19,11 +19,14 @@ function showAll(id){
     const addmoney = document.getElementById('add-money')
     const cashout = document.getElementById('cash-out')
     const sendmoney = document.getElementById('transfer-money')
+    const payment = document.getElementById('pay-bill')
+    const bonus = document.getElementById('bonus')
 
     addmoney.classList.add('hidden');
     cashout.classList.add('hidden');
     sendmoney.classList.add('hidden');
-
+    payment.classList.add('hidden');
+    bonus.classList.add('hidden');
     const selected = document.getElementById(id);
     selected.classList.remove('hidden')
     

@@ -4,7 +4,7 @@ document.getElementById('login-btn').addEventListener('click', function(){
     const loginPin = document.getElementById('login-pin');
     const newPin = loginPin.value;
     if(newNum == '01600690954' && newPin == '5263') {
-        alert('login succecful');
+        alert('login successful');
         window.location.assign('home.html')
     }else{
         alert('login failed')
